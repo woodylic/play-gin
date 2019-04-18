@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+
+  web:
+    image: woodylic/play-gin
+    build:
+      context: .
+      dockerfile: Dockerfile
